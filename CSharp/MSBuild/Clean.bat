@@ -1,0 +1,1 @@
+%SystemRoot%\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe /nologo "Deployment.proj" /t:Clean /fl /flp:"logfile=Deployment.log;encoding=Unicode;verbosity=normal" /p:SkipInvalidConfigurations=true  /p:OutDir="D:\\APP\\" /p:Configuration="Release" /p:Platform="AnyCPU" /p:IsAutoBuild="True"
